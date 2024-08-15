@@ -1,0 +1,22 @@
+
+ID = "st-afa.004a_starfleet_music"
+Name = "ST-AFA - Music Replacement"
+Version = 0.1
+CompatibleGameVersions = ["0.26.2d", "0.27.0e"]
+ModifiesGameplay = false
+ModifiesMultiplayer = true
+Author = "ST-AFA Mod-Team"
+Logo = logo.png
+
+Description = "For full details please see Steam Workshop. Replaces the existing Cosmoteer conditional music with curated music from Star Trek."
+
+Actions
+[
+	/* ****** MUSIC ****** */
+	{
+		Action = Replace
+		Replace = "<./Data/music/music.rules>/RootTrack"
+		IgnoreIfNotExisting = false
+		With = &<music/music.rules>/RootTrack
+	}
+]
